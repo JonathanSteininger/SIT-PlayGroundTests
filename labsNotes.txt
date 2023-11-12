@@ -1,0 +1,21 @@
+lab1 - lab3:
+
+Playing Card Library that contains all the objects used for card data, deck object, and hand object. 
+
+Form App uses PlayingCard Library to make a simple gui app that generates a deck of cards. The user can draw cards from the deck and add it to their hand. Pressing the button above the deck will put every card back into the deck and reshuffle it.
+
+lab4:
+
+Extension from lab1-3. Built a GUI application from the playingCardLibrary to play the game "memory" where you try to find matching cards. all cards from the deck are layed out on the table. each time you get a matching pair of cards it will take them off the table and add a point to your score.
+you can save your score with a username. the data is saved in a json .data file.
+
+lab5:
+
+Uses the Lab1 playing card library to have a deck be dealt out to 4 different hands. every hand can be saved and loaded. the user can swap between hands with the radial buttons. each hand can draw cards.
+
+lab6:
+
+Extension to lab5. when you save every hadn it will save a pdf version of each hand aswell.
+
+lab7:
+
