@@ -1,0 +1,91 @@
+Lab10:
+
+The program will connect to a MySql database and grab all the data needed to create timetables for every student.
+
+The CLI application that when run will connect to the localhost MySql server with the following connection string: "Server=localhost;Database=studenttimetable;Uid=student;Pwd=secret;". 
+It will query the database for every student ID and subject id. and create a table in a single exel file which gets saved.
+
+lab11:
+
+a CLI application that reads an Exel file for the customers data and queries a MySQL database for the transactions that have occured. The Program will then change the balance of each customer depending on the transactions from the sql server.
+it will output the file to output.xlsx
+
+lab12:
+
+First look into connecting to network sockets in .Net
+Simple WinForms GUI application that connects to localhost preconfigured server. The user can click a button to send a request to the server to recieve a card.
+If successful a card data object will be sent across as json and deserialised and displayed on the screen.
+
+lab13:
+
+Missing Server Executable :P
+Supposed to be able to set name and see everyone connected to server. and retrive playing cards from the server.
+
+lab14:
+
+Simple CLI application that connects to local server and retrievs the conversion rates from nzd to specified currency.
+user writes "b" or "s" to specify buy or sell conversion. and the abbreviation of the currency comes after eg "aud" (australian dollar).
+example input: "b aud"
+you can leave the application by entering "#"
+
+lab15:
+
+A CLI application that connects to pre-made server. the user can play rock paper scissors with the server.
+
+lab16:
+
+A CLI application that connect to pre-made server which sends the client an element that the clients application decays and then sends that back to the server to verify result.
+If all is successfull the server passes the test of the clients ssuccessfull decay and the connection closes.
+
+lab17:
+
+The ServerForm is the Server Form that hosts the server.
+The ClientForm is the form used by the client connections.
+
+ServerForm is a WinForms application that listens for Clients and assigns them to different worker threads.
+ClientForm is a WinForms application that Joins the ServerForm server and can set the clients name and recive a card from the server.
+
+lab18:
+
+A WinForm GUI application that races multiple cars. Each Lane is on a seperate thread and modulised to be easily expandable. each car gets assigned a random speed at a constant interval. the first car to reach the end wins.
+The user has two buttons to start and reset the race.
+
+Each racer has its own statistics on how many wins it has, what its current place is etc.
+Made sure to align all racers to the relative position of the lead racer, this is to prevent racers going off screen and maintain an understandable race.
+
+lab19:
+
+A set of Winform applications to let playeres play rock papper sicorrs against a bot or other players. One for hosting the server Winform and another for the client application.
+
+The Server application Maintains all the Rock Paper Siccor games. Every client will connect to the server when the application gets opened. 
+If the player selects SinglePlayer, the player will be able to play a bot using the rock papper scissors buttons.
+If the player selects MultiPlayer, the player will be set up to wait for an opponnent.
+A new player can then click on that players name through the list of online players to join their game. Now they are playing rock papper scissors against each other!
+
+The client can also change theire name at will.
+
+
+PlayGround:
+
+This repository contains a bunch of applicatoins where I test things. 
+Things I've tested: Accessing APIs on the web, Doing extension methods, using asyncroness methods to await API calls.
+
+
+Final Test:
+
+This is a form application that mimics MS Paint but in multiplayer.
+The user can start a single player game where they are just drawing on theire own.
+The user can also start a multiplayer game which will Run a TCP litener in the background and you become the host server for this game on a random port number. the user can also choose thiere own port number.
+Now another user can Play multiplayer and join your game making sure it is the same port number. The user should now be able to see all the other players in the server drawing live with each other.
+
+The drawing aspect is very basic allowing for line colours and line thicknesses only.
+When I handed this project in There is a bug that the lifeTime of the server is not updated for the user that joins a multiplayer game causing delay and layering issues.
+
+The original challenge was just to make a server application and a client application that did anything to interact with each other. I wanted to have a bit of fun so I made this application.
+looking back I would defenetly have changed some things but I am still proud of it.
+
+ASP.Net:
+
+All of my ASP.Net labs during SIT are extremely basic including just sending post and get requests to the server to update a database. My current website built on ASP.Net greatly surpasses my lab exersises and will not be uploading them to github.
+They are really repetitive and I see no use in displaying them.
+ 
